@@ -1,0 +1,65 @@
+/* buttons */
+.round-icon-btn {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #e94560;
+  background-color: #e94560;
+  padding-bottom: 4px;
+  color: #fff;
+}
+
+.button {
+  height: 45px;
+  border-radius: 50px;
+  font-size: 17px;
+  border: 1px solid #e94560;
+  padding: 0px 20px;
+  font-weight: 600;
+  color: #e94560;
+  background-color: #fff;
+  transition: all .4s;
+}
+
+.button:hover {
+  background-color: #e94560;
+  color: #fff;
+}
+
+.button-pink {
+  background-color: #e94560;
+  color: #fff;
+}
+
+/* fonts */
+.text-pink {
+  color: #e94560;
+}
+
+/* Heading */
+.main_top_heading{
+  width: 70%;
+}
+.main_top_heading h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  color: #444;
+}
+
+.main_top_heading h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(to right, #444, #e94560);
+  bottom: -12px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  border-radius: 5px;
+}
+.main_top_heading p{
+  color: #555;
+  font-size: 17px;
+}
