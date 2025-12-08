@@ -6,11 +6,11 @@ const AboutSection = () => {
         <section>
             <div className='container py-5'>
                 <div className="row align-items-center">
-                    <div className="col-md-5">
+                    <div className="col-md-5 mb-md-0 mb-5">
                         <h2 className="display-6 fw-bold ">
                             Luxurious Furniture Starts with the Best Quality Materials
                         </h2>
-                        <p className="fs-5 py-4">
+                        <p className="fs-5 py-md-4 py-3">
                             Pellentesque ullamcorper dignissim condimentum volutpat
                             consequat mauris nunc lacinia quis.
                         </p>
@@ -27,6 +27,7 @@ const AboutSection = () => {
                             src={"https://startersites.io/blocksy/furniture/wp-content/uploads/2024/05/home-mask-image.webp"}
                             width={300} height={400}
                             className='w-100 object-fit-cover rounded-4'
+                            alt=''
                         />
                         </div>
                     </div>

@@ -5,8 +5,8 @@ const Subscribe = () => {
         <section className='subscribe py-4 mt-5'>
             <div className="container py-3">
                 <div className='row align-items-center'>
-                    <div className="col-md-6">
-                        <h4 className='fw-bold'>Important updates waiting for you!</h4>
+                    <div className="col-md-6 mb-md-0 mb-4">
+                        <h4 className='fw-bold pe-md-0 pe-5'>Important updates waiting for you!</h4>
                         <p className='mb-0'>Subscribe and grab 20% OFF!</p>
                     </div>
                     <div className="col-md-6">
