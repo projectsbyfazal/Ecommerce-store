@@ -2,9 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 const OfferCard = ({color}) => {
+    
     return (
         <div className="col-md-4">
-            <div className={`offer_card d-flex align-items-center mb-5 p-4 bg-light-${color}`}>
+            <div className={`offer_card d-flex align-items-center mb-5 p-md-4 p-3 bg-light-${color}`}>
                 <div className="offer_img">
                     <Image
                         src={"/assets/products/product1.webp"}

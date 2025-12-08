@@ -1,3 +1,4 @@
+"use client"
 import HomeBanner from "./(home)/components/HomeBanner";
 import "../css/Home.css";
 import CategorySlider from "@/components/CategorySlider";
@@ -6,7 +7,6 @@ import OfferProduct from "./(home)/components/OfferProduct";
 import HeroSection from "./(home)/components/HeroSection";
 import AboutSection from "./(home)/components/AboutSection";
 import Subscribe from "@/components/Subscribe";
-import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -15,12 +15,11 @@ export default function Home() {
       {/* <HomeBanner /> */}
       
       <HeroSection />
-      <CategorySlider />
+      <CategorySlider isHeading={true}/>
       <ProductsList />
       <OfferProduct />
-      <AboutSection />
+      <AboutSection /> 
       <Subscribe />
-      <Footer />
     </main>
   );
 }

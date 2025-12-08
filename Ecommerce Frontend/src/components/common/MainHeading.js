@@ -1,5 +1,6 @@
 
 const MainHeading = ({ title, subtitle }) => {
+
     return (
         <div className="main_top_heading">
             <h3 className="mb-4">

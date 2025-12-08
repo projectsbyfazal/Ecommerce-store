@@ -4,8 +4,8 @@ import { Envelope, Phone, PinMap, Telephone } from "react-bootstrap-icons";
 
 const Footer = () => {
     return (
-        <footer>
-            <div className="container">
+        <footer className="footer">
+            <div className="container border-top">
                 <div className="row py-5 border-2 border-bottom">
                     <div className="col-md-4 pe-5">
                         <h5 className="fw-bold mb-4">About Us</h5>
@@ -18,7 +18,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="col-md-2">
+                    <div className="col-md-2 ">
                         <div>
                             <h5 className="fw-bold mb-4">Quick Links</h5>
 
